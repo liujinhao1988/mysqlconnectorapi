@@ -1,0 +1,17 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  LXMysql.cpp
+c:\users\liujinhao\documents\visual studio 2015\projects\src\lxmysql\lxmysql.h(67): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\liujinhao\documents\visual studio 2015\projects\src\lxmysql\lxmysql.h(131): warning C4251: “LX::LXMysql::cols”: class“std::vector<LX::LXData,std::allocator<_Ty>>”需要有 dll 接口由 class“LX::LXMysql”的客户端使用
+          with
+          [
+              _Ty=LX::LXData
+          ]
+  c:\users\liujinhao\documents\visual studio 2015\projects\src\lxmysql\lxmysql.h(108): note: 参见“std::vector<LX::LXData,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=LX::LXData
+          ]
+c:\users\liujinhao\documents\visual studio 2015\projects\src\lxmysql\lxmysql.cpp(293): warning C4244: “初始化”: 从“my_ulonglong”转换到“int”，可能丢失数据
+    正在创建库 ..\..\lib\LXMysql.lib 和对象 ..\..\lib\LXMysql.exp
+  LXMysql.vcxproj -> C:\Users\liujinhao\Documents\Visual Studio 2015\Projects\src\LXMysql\..\..\bin\LXMysql.dll
+  LXMysql.vcxproj -> ..\..\bin\LXMysql.pdb (Full PDB)
